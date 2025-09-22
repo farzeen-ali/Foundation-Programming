@@ -16,19 +16,26 @@
 #     print("Number is -ve")
 
 # if Else if ladder
-marks = int(input("Enter your marks: "))
+# marks = int(input("Enter your marks: "))
 
-if marks >= 90:
-    print("A+")
-elif marks >= 80:
-    print("A")
-elif marks >= 70:
-    print("B")
-elif marks >= 60:
-    print("C")
-elif marks >= 50:
-    print("D")
-elif marks < 50 and marks >= 0:
-    print("F")
+# if marks >= 90:
+#     print("A+")
+# elif marks >= 80:
+#     print("A")
+# elif marks >= 70:
+#     print("B")
+# elif marks >= 60:
+#     print("C")
+# elif marks >= 50:
+#     print("D")
+# elif marks < 50 and marks >= 0:
+#     print("F")
+# else:
+#     print("Invalid Marks")
+
+isEven = int(input("Enter a number: "))
+
+if isEven % 2 == 0:
+    print("Even Number")
 else:
-    print("Invalid Marks")
+    print("Odd Number")
